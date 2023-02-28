@@ -8,6 +8,7 @@ import 'dart:html';
 
 void main() {
   querySelector("#btnInput")!.onClick.listen(calculate);
+  querySelector("#txtInput")!.onKeyUp.listen(calculate);
 }
 
 void calculate(Event e) {
