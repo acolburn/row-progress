@@ -16,7 +16,7 @@ void calculate(Event e) {
   String output = "";
   final today = DateTime.now();
   // today_formatted = today.strftime('%m/%d/%Y')
-  final endDate = DateTime(2023, 5, 1); // May 1, 2023
+  final endDate = DateTime(2024, 5, 1); // May 1, 2023
   final diff = endDate.difference(today);
   final daysLeft = diff.inDays;
   final weeksLeft = daysLeft / 7;
